@@ -1,7 +1,10 @@
 .ReadPosts {
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
+    flex-direction: column;
+    grid-auto-flow: column;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    flex-direction: column;
+    align-items: center; 
 }
 

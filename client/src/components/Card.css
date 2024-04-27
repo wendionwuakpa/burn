@@ -8,10 +8,13 @@
     margin-bottom: 25px;
     width: 400px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .title {
-    color:white;
+    color:rgb(177, 110, 110);
     padding-left:30px;
     font-size: 24px;
 }
@@ -32,7 +35,7 @@
     font-size: 15px;
 }
 
-.betButton {
+.ratingButton {
     border-radius: 8px;
     border: 1px solid transparent;
     padding: 0.6em 1.2em;
@@ -44,8 +47,8 @@
     cursor: pointer;
     transition: border-color 0.25s;
 }
-.betButton:hover {
-    border-color: #646cff;
+.ratingButton:hover {
+    border-color: green;
   }
 
 .moreButton {
