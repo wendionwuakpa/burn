@@ -39,6 +39,7 @@ const App = () => {
 
   return ( 
 
+    <>
     <div className="App">
 
       <div className="header">
@@ -53,12 +54,13 @@ const App = () => {
           placeholder="Search by Workout or Gym..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-        />
+          />
         <p> Get authentic reviews from real people that attended your favorite gym or workout class.</p>
       </div>
-        
         {element}
     </div>
+        
+          </>
   );
 }
 

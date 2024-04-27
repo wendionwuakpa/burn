@@ -34,8 +34,8 @@ const Card = (props) =>  {
           <h2 className="title">{props.title}</h2>
           <h3 className="author">{"Instructor:  " + props.author}</h3>
           <p className="description">{props.description}</p>
-          <button className="ratingButton" onClick={updateCount} > Ratings: {props.rating}</button>
-          <p>{calculateHoursAgo(props.created_at) + " hours ago"}</p>
+          <button className="ratingButton" onClick={updateCount} > Ratings: {count}</button>
+          {/* <p>{calculateHoursAgo(props.created_at) + " hours ago"}</p> */}
           <Link to={`/posts/${props.id}`}>
           <button>View Post</button>
           </Link>
